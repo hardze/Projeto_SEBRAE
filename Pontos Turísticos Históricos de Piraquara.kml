@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Pontos Turísticos Históricos de Piraquara</name>
+    <description>Capital das Águas e Guardiã das Nascentes do Rio Iguaçu! Neste mapa digital você encontrará pontos turísticos e outras informações destinadas à você, visitante. Desejamos um ótimo passeio</description>
+    <NetworkLink>
+      <name>Pontos Turísticos Históricos de Piraquara</name>
+      <Link>
+        <href><![CDATA[https://www.google.com/maps/d/u/3/kml?forcekml=1&mid=1EAAh2lWIAS2GXbhGIKdZ-veUa62KYhU]]></href>
+      </Link>
+    </NetworkLink>
+  </Document>
+</kml>
