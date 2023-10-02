@@ -86,16 +86,13 @@ main{
   align-items: center;
 }
 .MapBox{
-  background-color: blueviolet;
+  background-color: #004883;
   position: absolute;
   width: 1603px;
   height: 900px;
   top: 50px;
   left: 150px;
-}
-iframe{
-  width: 100%;
-  height: 100%;
+  font-size: 25px;
 }
 footer{
   background-color: blue;

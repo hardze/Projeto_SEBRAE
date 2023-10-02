@@ -86,7 +86,7 @@ main{
   align-items: center;
 }
 .MapBox{
-  background-color: blueviolet;
+  background-color: #004883;
   position: absolute;
   width: 1603px;
   height: 900px;
@@ -110,5 +110,5 @@ footer{
   font-size: 25px;
   position: absolute;
   top: -20px;
-  left: 700px;
+  left: 500px;
 }
