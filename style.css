@@ -14,7 +14,7 @@ header{
 h1{
   position: absolute;
   top: -10px;
-  left: 180px;
+  left: 230px;
   font-size: 45px;
   color:#2F4F2F;
 }
@@ -29,50 +29,50 @@ h1{
 .Brasão{
   position: absolute;
   top: 20px;
-  left: 100px;
+  left: 150px;
 }
 .Araucária{
   position: absolute;
   top: 16.5px;
-  right: 845px;
+  right: 625px;
   width: 3%;
 }
 .Rio{
   position: absolute;
   top: 5px;
-  right: 780px;
+  right: 560px;
   width: 3.8%;
 }
 .Natureza{
   position: absolute;
   top: 15px;
-  right: 710px;
+  right: 490px;
   font-size: 20px;
   color: #90ee90;
 }
 .Pessoas{
     position: absolute;
     top: 5px;
-    right: 620px;
+    right: 400px;
     width: 4%;
 }
 .Cultura{
     position: absolute;
     top: 15px;
-    right: 550px;
+    right: 330px;
     font-size: 20px;
     color: #90ee90;
 }
 .Livro{
     position: absolute;
     top: 5px;
-    right: 455px;
+    right: 225px;
     width: 4%;
 }
 .Historia{
     position: absolute;
     top: 15px;
-    right: 380px;
+    right: 150px;
     font-size: 20px;
     color: #90ee90;
 }
