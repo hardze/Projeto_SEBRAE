@@ -82,15 +82,29 @@ main{
   top: 200px;
   left: 0px;
   width: 1903px;
-  height: 1250px;
+  height: 985px;
   display: flex;
 }
 section{
   position: absolute;
   width: 100%;
   max-width: 600px;
-  top: 5px;
+  top: 0px;
   left: 150px;
+}
+section details summary{
+  background-color: #90ee90;
+  padding: 2%;
+  border-bottom: 2px solid#2F4F2F;
+  color: #2F4F2F;
+  font-weight: 600;
+}
+.section2{
+  position: absolute;
+  width: 100%;
+  max-width: 600px;
+  top: 0px;
+  right: 300px;
 }
 section details summary{
   background-color: #90ee90;
@@ -106,7 +120,6 @@ p{
 img{
   max-width: 600px;
   max-height: 600px;
-
 }
 a{
   text-decoration: none;
@@ -119,7 +132,7 @@ footer{
   width: 1903px;
   height: 100px;
   left: 0px;
-  top: 1450px;
+  top: 1180px;
 }
 .consideracoes{
   color: aliceblue;

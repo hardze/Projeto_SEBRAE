@@ -14,7 +14,7 @@ header{
 h1{
   position: absolute;
   top: -10px;
-  left: 180px;
+  left: 230px;
   font-size: 45px;
   color:#2F4F2F;
 }
@@ -29,50 +29,50 @@ h1{
 .Brasão{
   position: absolute;
   top: 20px;
-  left: 100px;
+  left: 150px;
 }
 .Araucária{
   position: absolute;
   top: 16.5px;
-  right: 845px;
+  right: 625px;
   width: 3%;
 }
 .Rio{
   position: absolute;
   top: 5px;
-  right: 780px;
+  right: 560px;
   width: 3.8%;
 }
 .Natureza{
   position: absolute;
   top: 15px;
-  right: 710px;
+  right: 490px;
   font-size: 20px;
   color: #90ee90;
 }
 .Pessoas{
     position: absolute;
     top: 5px;
-    right: 620px;
+    right: 400px;
     width: 4%;
 }
 .Cultura{
     position: absolute;
     top: 15px;
-    right: 550px;
+    right: 330px;
     font-size: 20px;
     color: #90ee90;
 }
 .Livro{
     position: absolute;
     top: 5px;
-    right: 455px;
+    right: 225px;
     width: 4%;
 }
 .Historia{
     position: absolute;
     top: 15px;
-    right: 380px;
+    right: 150px;
     font-size: 20px;
     color: #90ee90;
 }
@@ -82,54 +82,10 @@ main{
   top: 200px;
   left: 0px;
   width: 1903px;
-  height: 1000px;
+  height: 780px;
   display: flex;
-  align-items: center;
+  align-items: top;
   justify-content: center;
-}
-select {
-  -webkit-appearance:none;
-  -moz-appearance:none;
-  -ms-appearance:none;
-  appearance:none;
-  outline:0;
-  box-shadow:none;
-  border:0!important;
-  background: #5c6664;
-  background-image: none;
-  flex: 1;
-  padding: 0 .5em;
-  color:#fff;
-  cursor:pointer;
-  font-size: 1em;
-  font-family: 'Open Sans', sans-serif;
-}
-select::-ms-expand {
-  display: none;
-}
-.select {
-  position: relative;
-  display: flex;
-  width: 20em;
-  height: 3em;
-  line-height: 3;
-  background: #5c6664;
-  overflow: hidden;
-  border-radius: .25em;
-}
-.select::after {
-  content: '\25BC';
-  position: absolute;
-  top: 0;
-  right: 0;
-  padding: 0 1em;
-  background: #2b2e2e;
-  cursor:pointer;
-  pointer-events:none;
-  transition:.25s all ease;
-}
-.select:hover::after {
-  color: #23b499;
 }
 section{
   position:static;
@@ -162,7 +118,7 @@ footer{
   width: 1903px;
   height: 100px;
   left: 0px;
-  top: 1200px;
+  top: 980px;
 }
 .consideracoes{
   color: aliceblue;
