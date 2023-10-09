@@ -107,6 +107,7 @@ section details summary{
   border-bottom: 2px solid#2F4F2F;
   color: #2F4F2F;
   font-weight: 600;
+  border-radius: 15px;
 }
 .section2{
   position: absolute;
