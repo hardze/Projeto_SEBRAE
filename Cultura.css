@@ -37,8 +37,10 @@ h1{
 }
 .Brasão{
   position: absolute;
-  top: 20px;
+  top: 5px;
   left: 150px;
+  width: 75px;
+  height: 80px;
 }
 .Araucária{
   position: absolute;
