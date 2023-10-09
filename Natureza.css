@@ -3,6 +3,12 @@
 body{
   font-family: 'Gabarito';
 }
+::-webkit-scrollbar{
+  width: 17.5px;
+}
+::-webkit-scrollbar-thumb{
+  background-color: #2F4F2F;
+}
 header{
   position: absolute;
   left: 0px;
