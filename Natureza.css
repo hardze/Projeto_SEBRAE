@@ -102,6 +102,8 @@ section{
   max-width: 600px;
   top: 0px;
   left: 150px;
+  align-items: center;
+  justify-items: center;
 }
 section details summary{
   background-color: #90ee90;
