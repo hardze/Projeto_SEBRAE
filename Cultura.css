@@ -93,15 +93,17 @@ main{
   top: 200px;
   left: 0px;
   width: 1909px;
-  height: 1035px;
+  height: 985px;
   display: flex;
-  align-items: top;
-  justify-content: center;
 }
 section{
-  position:static;
+  position: absolute;
   width: 100%;
   max-width: 600px;
+  top: 0px;
+  left: 150px;
+  align-items: center;
+  justify-items: center;
 }
 section details summary{
   background-color: #90ee90;
@@ -111,16 +113,37 @@ section details summary{
   font-weight: 600;
   border-radius: 15px;
 }
+.section2{
+  position: absolute;
+  width: 100%;
+  max-width: 600px;
+  top: 0px;
+  right: 300px;
+}
+section details summary{
+  background-color: #90ee90;
+  padding: 2%;
+  border-bottom: 2px solid#2F4F2F;
+  color: #2F4F2F;
+  font-weight: 600;
+}
 p{
   color: #ffff;
   font-size: 15px;
+  text-align: justify;
 }
 img{
   max-width: 600px;
   max-height: 600px;
 }
+.imgs{
+  max-width: 600px;
+  max-height: 600px;
+  border-radius: 15px;
+  border: solid 5px #ffff;
+}
 a{
-  text-decoration: underline;
+  text-decoration: none;
   color: #ffff;
   font-size: 15px;
 }
@@ -130,7 +153,7 @@ footer{
   width: 1909px;
   height: 100px;
   left: 0px;
-  top: 1235px;
+  top: 1180px;
 }
 .consideracoes{
   color: aliceblue;

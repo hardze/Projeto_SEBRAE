@@ -130,10 +130,17 @@ section details summary{
 p{
   color: #ffff;
   font-size: 15px;
+  text-align: justify;
 }
 img{
   max-width: 600px;
   max-height: 600px;
+}
+.imgs{
+  max-width: 600px;
+  max-height: 600px;
+  border-radius: 15px;
+  border: solid 5px #ffff;
 }
 a{
   text-decoration: none;
