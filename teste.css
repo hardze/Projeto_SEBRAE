@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@500&display=swap');
+
+body{
+  font-family: 'Gabarito';
+}
+::-webkit-scrollbar{
+  width: 10px;
+  background: #90ee90;
+}
+::-webkit-scrollbar-thumb{
+  background-color: #2F4F2F;
+  border-radius: 50px;
+  border: 2px, solid #2F4F2F;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header{
+    width: 100%;
+    padding: 60px 4%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    transition: 0.5s;
+}
+
+header.rolagem{
+    background-color: #90ee90;
+    padding: 25px 4%;
+}
+
+header.rolagem a, header.rolagem i{
+    color: #2F4F2F;
+}
+
+header i{
+    top: 15px;
+    right: 490px;
+    font-size: 20px;
+    color: #90ee90;
+}
+
+header ul{
+    list-style-type: none;
+}
+
+header ul li{
+    display: inline-block;
+    margin: 0 40px;
+}
+
+header ul li a{
+    color: #00ff6a;
+    text-decoration: none;
+}
+
+h1{
+  position: absolute;
+  top: -10px;
+  left: 230px;
+  font-size: 45px;
+  color:#2F4F2F;
+}
+.header2{
+  position: absolute;
+  left: 0px;
+  top: 100px;
+  background-color:#2F4F2F;
+  width: 1909px;
+  height: 100px;
+}
+.Brasão{
+  position: absolute;
+  top: 5px;
+  left: 125px;
+  width: 80px;
+  height: 80px;
+}
+.Araucária{
+  position: absolute;
+  top: 16.5px;
+  right: 625px;
+  width: 3%;
+}
+.Rio{
+  position: absolute;
+  top: 5px;
+  right: 560px;
+  width: 3.8%;
+}
+.Natureza{
+  position: absolute;
+  top: 15px;
+  right: 490px;
+  font-size: 20px;
+  color: #90ee90;
+}
+.Pessoas{
+    position: absolute;
+    top: 5px;
+    right: 400px;
+    width: 4%;
+}
+.Cultura{
+    position: absolute;
+    top: 15px;
+    right: 330px;
+    font-size: 20px;
+    color: #90ee90;
+}
+.Livro{
+    position: absolute;
+    top: 5px;
+    right: 225px;
+    width: 4%;
+}
+.Historia{
+    position: absolute;
+    top: 15px;
+    right: 150px;
+    font-size: 20px;
+    color: #90ee90;
+}
+main{
+  background: linear-gradient(to bottom, #008cff, #001424);
+  position: absolute;
+  top: 200px;
+  left: 0px;
+  width: 1909px;
+  height: 985px;
+  display: flex;
+}
+section{
+  position: absolute;
+  width: 100%;
+  max-width: 600px;
+  top: 0px;
+  left: 150px;
+  align-items: center;
+  justify-items: center;
+}
+section details summary{
+  background-color: #90ee90;
+  padding: 2%;
+  border-bottom: 2px solid#2F4F2F;
+  color: #2F4F2F;
+  font-weight: 600;
+  border-radius: 15px;
+}
+.section2{
+  position: absolute;
+  width: 100%;
+  max-width: 600px;
+  top: 0px;
+  right: 300px;
+}
+section details summary{
+  background-color: #90ee90;
+  padding: 2%;
+  border-bottom: 2px solid#2F4F2F;
+  color: #2F4F2F;
+  font-weight: 600;
+}
+p{
+  color: #ffff;
+  font-size: 15px;
+  text-align: justify;
+}
+img{
+  max-width: 600px;
+  max-height: 600px;
+  border-radius: 15px;
+}
+.imgs{
+  max-width: 600px;
+  max-height: 600px;
+  border-radius: 15px;
+  border: solid 5px #ffff;
+}
+a{
+  text-decoration: none;
+  color: #ffff;
+  font-size: 15px;
+}
+footer{
+  background-color: blue;
+  position: absolute;
+  width: 1909px;
+  height: 100px;
+  left: 0px;
+  top: 1180px;
+}
+.consideracoes{
+  color: aliceblue;
+  font-size: 25px;
+  position: absolute;
+  top: -20px;
+  left: 500px;
+}
