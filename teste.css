@@ -1,8 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@500&display=swap');
-
-body{
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
   font-family: 'Gabarito';
 }
+
+html{
+  height: 150vh;
+}
+
+.container{
+  max-width: 1280px;
+  margin: auto;
+}
+
 ::-webkit-scrollbar{
   width: 10px;
   background: #90ee90;
@@ -21,10 +32,10 @@ body{
 
 header{
     width: 100%;
-    padding: 60px 4%;
+    padding: 30px 4%;
     position: fixed;
     top: 0;
-    left: 0;
+    right: 0;
     transition: 0.5s;
 }
 
@@ -50,13 +61,21 @@ header ul{
 
 header ul li{
     display: inline-block;
-    margin: 0 40px;
+    margin: 0 50px;
 }
 
 header ul li a{
     color: #00ff6a;
     text-decoration: none;
 }
+
+
+
+
+
+
+
+
 
 h1{
   position: absolute;
@@ -131,7 +150,7 @@ main{
   top: 200px;
   left: 0px;
   width: 1909px;
-  height: 985px;
+  height: 150px;
   display: flex;
 }
 section{
@@ -192,7 +211,7 @@ footer{
   width: 1909px;
   height: 100px;
   left: 0px;
-  top: 1180px;
+  top: 1363px;
 }
 .consideracoes{
   color: aliceblue;
