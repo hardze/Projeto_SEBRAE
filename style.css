@@ -17,7 +17,7 @@ header{
   left: 0px;
   top: 0px;  
   background-color: #90ee90;
-  width: 1909px;
+  width: 1910px;
   height: 100px;
 }
 h1{
@@ -32,7 +32,7 @@ h1{
   left: 0px;
   top: 100px;
   background-color:#2F4F2F;
-  width: 1909px;
+  width: 1910px;
   height: 100px;
 }
 .Brasão{
@@ -88,11 +88,11 @@ h1{
     color: #90ee90;
 }
 main{
-  background: linear-gradient(to bottom, #008cff, #001424);
+  background: linear-gradient(to bottom, #82BCF4, #6FABE6, #5B9AD8);
   position: absolute;
   top: 200px;
   left: 0px;
-  width: 1909px;
+  width: 1910px;
   height: 1000px;
   align-items: center;
 }
@@ -115,8 +115,8 @@ iframe{
 footer{
   background-color: blue;
   position: absolute;
-  width: 1909px;
-  height: 100px;
+  width: 1910px;
+  height: 50px;
   left: 0px;
   top: 1200px;
 }
